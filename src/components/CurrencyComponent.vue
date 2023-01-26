@@ -2,7 +2,7 @@
   <form>
     <div class="form-group">
       <label for="currencyInput">Enter Your Amount (LKR)
-        <input class="form-control" type="number" v-model="amount" name="amount" id="currencyInput" />
+        <input class="form-control" type="number" v-model.number="amount" name="amount" id="currencyInput" />
       </label>
     </div>
     <div>
