@@ -12,7 +12,7 @@
         </template>
       </ul>
     </div>
-    <currency-component amount="10" />
+    <currency-component />
   </div>
 </template>
 
