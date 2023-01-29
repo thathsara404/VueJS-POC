@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <h3>Parent Component</h3>
+    <h3>Parent View</h3>
     <p>{{ names }}</p>
     <name-filter-component :names="names" @add-name-event="addToNamesArray($event)"/>
   </div>
@@ -12,7 +12,7 @@ import NameFilterComponent from '@/components/NameFilterComponent.vue';
 
 export default {
   name: 'ComputedPropView',
-  prop: [],
+  props: [],
   components: {
     NameFilterComponent
   },

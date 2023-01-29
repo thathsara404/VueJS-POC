@@ -19,6 +19,11 @@ const routes = [
     path: '/computedProps',
     name: 'computedPropView',
     component: () => import('../views/ComputedPropView.vue'),
+  },
+  {
+    path: '/slot',
+    name: 'slotParentView',
+    component: () => import('../views/SlotParentView.vue'),
   }
 ];
 
